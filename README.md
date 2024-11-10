@@ -11,7 +11,7 @@ With `flakes` and `nix-command` features enabled, run `nix run github:KSPAtlas/d
 In your flake, put
 ```nix
 inputs = {
-  drawterm.url = "github:KSPAtlas/drawterm.flake";
+  drawterm.url = "github:KSPAtlas/drawterm-flake";
   ...
 }
 ```
